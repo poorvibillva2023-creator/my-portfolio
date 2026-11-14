@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3e8ff;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background: #7c3aed;
+    padding: 18px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    background: white;
+    padding: 35px;
+    margin: 30px auto;
+    max-width: 700px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #7c3aed;
+    font-size: 45px;
+}
+
+h2 {
+    color: #5b21b6;
+}
+
+h3 {
+    color: #7c3aed;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+.button {
+    display: inline-block;
+    background: #7c3aed;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.button:hover {
+    background: #5b21b6;
+}
+.profile {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #7c3aed;
+}
+.profile {
+    transition: transform 0.3s;
+}
+
+.profile:hover {
+    transform: scale(1.08);
+}
+footer {
+    background: #7c3aed;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 15px;
+}
+.top-button {
+    display: inline-block;
+    background: #7c3aed;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 15px;
+}
+
+.top-button:hover {
+    background: #5b21b6;
+}
+@media (max-width: 600px) {
+    nav a {
+        margin: 5px;
+        font-size: 14px;
+    }
+
+    section {
+        margin: 15px;
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .profile {
+        width: 120px;
+        height: 120px;
+    }
+}
